@@ -1,0 +1,29 @@
+
+/* Remove emoji statuses */
+.im-mess-stack--lnk .image_status__status, .im-expired-message {
+	display: none;
+}
+
+
+/* Reset font to classic */
+body {
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana !important;
+}
+
+
+/* Fix vertical video strech */
+.videoplayer_media {
+    top: 0 !important;
+    bottom: 0 !important;
+    background: #000;
+}
+
+.page_post_thumb_video.page_video_autoplayable, .videoplayer_thumb {
+    background-size: cover !important;
+}
+
+
+/* Disable Sticker panels */
+#emoji_block_0, #emoji_block_1, #emoji_block_2, #emoji_block_3, #emoji_block_4, #emoji_block_5, #emoji_block_6, #emoji_block_7, #emoji_block_8, #emoji_block_9 {
+    display: none !important;
+}
