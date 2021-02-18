@@ -36,3 +36,9 @@ body {
 #emoji_block_0, #emoji_block_1, #emoji_block_2, #emoji_block_3, #emoji_block_4, #emoji_block_5, #emoji_block_6, #emoji_block_7, #emoji_block_8, #emoji_block_9 {
     display: none !important;
 }
+
+
+/* Remove Lovina ads */
+.ownerButton_lovina_valentine {
+    display: none !important;
+}
