@@ -1,3 +1,4 @@
+/* V2 */
 
 /* Remove emoji statuses */
 .im-mess-stack--lnk .image_status__status, .im-expired-message {
@@ -24,6 +25,14 @@ body {
 
 
 /* Disable Sticker panels */
+[dir=ltr] .im-chat-input .im-chat-input--attach-label {
+	padding: 6px 7px 6px 12px !important;
+}
+
+.emoji_smile_wrap.im-chat-input--smile-wrap._emoji_wrap {
+    display: none !important;
+}
+
 #emoji_block_0, #emoji_block_1, #emoji_block_2, #emoji_block_3, #emoji_block_4, #emoji_block_5, #emoji_block_6, #emoji_block_7, #emoji_block_8, #emoji_block_9 {
     display: none !important;
 }
