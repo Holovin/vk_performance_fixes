@@ -1,4 +1,4 @@
-/* V2 */
+/* V4 */
 
 /* Remove emoji statuses */
 .im-mess-stack--lnk .image_status__status, .im-expired-message {
@@ -40,5 +40,10 @@ body {
 
 /* Remove Lovina ads */
 .ownerButton_lovina_valentine {
+    display: none !important;
+}
+
+/* Remove combo ads */
+#l_combo {
     display: none !important;
 }
