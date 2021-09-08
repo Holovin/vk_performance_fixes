@@ -1,4 +1,4 @@
-/* V4 */
+/* V5 */
 
 /* Remove emoji statuses */
 .im-mess-stack--lnk .image_status__status, .im-expired-message {
@@ -46,4 +46,24 @@ body {
 /* Remove combo ads */
 #l_combo {
     display: none !important;
+}
+
+/* Fast chats */
+#fastchat-reforged {
+	display: none;
+}
+
+/* Messenger recomendations */
+.ConvoRecommendList {
+    display: none !important;
+}
+
+/* Messenger top A-B fix */
+.TopNavBtn__convoList, .TopNavBtn--messenger {
+    display: none;
+}
+
+/* TODO */
+.TopNavBtn__ecosystemMenuLink {
+	display: none;
 }
